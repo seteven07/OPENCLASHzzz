@@ -1,0 +1,49 @@
+proxies:
+  - name: playerCOM
+    server: sg5.anggasg.my.id
+    port: 443
+    type: vmess
+    uuid: c62d3b47-4db0-4651-b524-a60e7f738fd6
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: upload.iflix.com
+    network: ws
+    ws-opts:
+      path: /vmessws
+      headers:
+        Host: upload.iflix.com
+    udp: true
+  - name: R443:Vmess Singapore HE-1 Limit 2025-08-19
+    server: sg-1.hihu.net
+    port: 443
+    type: vmess
+    uuid: 7dca1410-775e-11f0-b936-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: upload.iflix.com
+    network: ws
+    ws-opts:
+      path: /ubh8expy
+      headers:
+        Host: upload.iflix.com
+    udp: true
+  - name: cobaah
+    server: id.serverkit.pw
+    port: 443
+    type: vmess
+    uuid: 913b65d5-c0ec-4aa6-be24-dd514bd68c4e
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: upload.iflix.com
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: upload.iflix.com
+    udp: true
