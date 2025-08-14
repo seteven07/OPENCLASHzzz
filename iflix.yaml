@@ -1,12 +1,12 @@
 proxies:
   - name: lionssh_vwxcquh
     server: id.serverkit.pw
-    port: 80
+    port: 443
     type: vmess
     uuid: 6d3b330e-6095-46d7-b3d9-e64aa73b64af
     alterId: 0
     cipher: auto
-    tls: false
+    tls: true
     skip-cert-verify: true
     servername: upload.iflix.com
     network: ws
