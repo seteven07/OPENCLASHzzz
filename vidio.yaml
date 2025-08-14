@@ -1,12 +1,12 @@
 proxies:
   - name: playerCOM
     server: quiz.vidio.com
-    port: 80
+    port: 443
     type: vmess
     uuid: c62d3b47-4db0-4651-b524-a60e7f738fd6
     alterId: 0
     cipher: auto
-    tls: false
+    tls: true
     skip-cert-verify: true
     servername: sg5.anggasg.my.id
     network: ws
@@ -14,36 +14,4 @@ proxies:
       path: /vmessws
       headers:
         Host: sg5.anggasg.my.id
-    udp: true
-  - name: R443:Vmess Singapore HE-1 Limit 2025-08-19
-    server: quiz.vidio.com
-    port: 80
-    type: vmess
-    uuid: 7dca1410-775e-11f0-b936-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: sg-1.hihu.net
-    network: ws
-    ws-opts:
-      path: /ubh8expy
-      headers:
-        Host: sg-1.hihu.net
-    udp: true
-  - name: cobaah
-    server: quiz.vidio.com
-    port: 80
-    type: vmess
-    uuid: 913b65d5-c0ec-4aa6-be24-dd514bd68c4e
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: id.serverkit.pw
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: id.serverkit.pw
     udp: true
