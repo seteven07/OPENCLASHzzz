@@ -1,20 +1,4 @@
 proxies:
-  - name: lionssh_vwxcquh_iflix
-    server: id.serverkit.pw
-    port: 443
-    type: vmess
-    uuid: 6d3b330e-6095-46d7-b3d9-e64aa73b64af
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: upload.iflix.com
-    network: ws
-    ws-opts:
-      path: /vmessws
-      headers:
-        Host: upload.iflix.com
-    udp: true
   - name: playerCOM_iflix
     server: sg5.anggasg.my.id
     port: 443
