@@ -1,5 +1,5 @@
 proxies:
-  - name: lionssh_vwxcquh
+  - name: lionssh_vwxcquh_iflix
     server: id.serverkit.pw
     port: 443
     type: vmess
@@ -15,7 +15,7 @@ proxies:
       headers:
         Host: upload.iflix.com
     udp: true
-  - name: playerCOM
+  - name: playerCOM_iflix
     server: sg5.anggasg.my.id
     port: 443
     type: vmess
@@ -31,7 +31,7 @@ proxies:
       headers:
         Host: upload.iflix.com
     udp: true
-  - name: R443:Vmess Singapore HE-1 Limit 2025-08-19
+  - name: R443:Vmess Singapore HE-1 Limit 2025-08-19_iflix
     server: sg-1.hihu.net
     port: 443
     type: vmess
@@ -47,7 +47,7 @@ proxies:
       headers:
         Host: upload.iflix.com
     udp: true
-  - name: cobaah
+  - name: cobaah_iflix
     server: id.serverkit.pw
     port: 443
     type: vmess
